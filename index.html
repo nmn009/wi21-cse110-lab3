@@ -77,9 +77,15 @@
         <circle cx="5" cy="5" r="4" />
       </svg>
     </svg>
-    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
     Your browser does not support the HTML5 canvas tag.
    </canvas>
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.font = "30px Arial";
+      ctx.strokeText("Nhat Nguyen", 10, 50);
+    </script>
     <video controls
            width="250"
            height="200"
