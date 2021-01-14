@@ -53,9 +53,15 @@
       <input type="checkbox" id="Indian" name="Indian">
       <label for="Indian">Indian</label>
     </div>
+    
     <div>
-      <label for="nation">What national are you:</label>
-      <input list="nation" id="nation" name="nation">
+      <input type="checkbox" id="more" name="more">
+      <label for="more">Some more</label>
+    </div>
+    
+    <div>
+      <label for="nation-list">What national are you:</label>
+      <input list="nation" id="nation-list" name="nation-list">
       <datalist id="nation">
         <option value="American">
           <option value="Vietnamese">
@@ -65,16 +71,13 @@
     <div>
       <label for="sport">Choose your favorite sport:</label>
       <select name="sport" id="sport">
-        <option value="">--Please choose an option--</option>
+        <option>--Please choose an option--</option>
         <option value="soccer"<Soccer</option>
         <option value="volleyball">Volleyball</option>
         <option value="basketball">Basketball</option>
         <option value="videogame">Video game</option>
       </select>
-    <div>
-      <input type="checkbox" id="more" name="more">
-      <label for="more">Some more</label>
-    </div>
+    
     <div>
     <label for="email">Enter your email to get your confirmation(should add @gmail.com):</label>
     <input type="email" id="email" pattern=".+gmail.com" size="30" required>
