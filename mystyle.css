@@ -2,5 +2,6 @@ body {
   background: url("./images/Calm-Wallpaper-for-Desktop.jpg") ;
 }
 iframe {
-  background: top right;
+  background-position: top right;
+  
 }
