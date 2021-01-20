@@ -1,3 +1,12 @@
+header.header {
+  color: red;
+  text-align: center;
+  background-color: while;
+}
+main h1 {
+  text-align: center;
+  border: solid red;
+}
 body {
   background: url("./images/Calm-Wallpaper-for-Desktop.jpg") ;
 }
