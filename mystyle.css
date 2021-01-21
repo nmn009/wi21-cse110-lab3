@@ -31,7 +31,7 @@ img {
 #map {
   position: absolute;
   top: 0;
-  left: 0; 
+  left: auto; 
   background-color : red;
   color: blue;
   text-align: center;
