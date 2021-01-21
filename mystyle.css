@@ -11,6 +11,12 @@ main h1 {
   border: 1px solid red;
 }
 main > iframe {
-  left-margin: 500px;
+  margin: auto;
+  display: block;
   border-color: red;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
 }
