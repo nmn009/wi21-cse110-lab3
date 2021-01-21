@@ -1,5 +1,5 @@
 body {
-  background: blue ;
+  background: #123654852 ;
 }
 .header {
   color: yellow;
@@ -9,11 +9,6 @@ body {
 main h1 {
   text-align: center;
   border: 5px solid red;
-}
-main > iframe {
-  margin: auto;
-  display: block;
-  border-color: red;
 }
 img {
   display: block;
