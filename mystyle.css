@@ -10,8 +10,7 @@ main h1 {
   text-align: center;
   border: 1px solid red;
 }
-iframe {
-  background-position: right top ;
-  background-attachment: fixed;
-  top-margin: 300px;
+main > iframe {
+  right-margin: 500px;
+  border-color: red;
 }
