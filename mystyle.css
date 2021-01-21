@@ -2,13 +2,13 @@ body {
   background: url("./images/Calm-Wallpaper-for-Desktop.jpg") ;
 }
 .header {
-  color: red;
+  color: yellow;
   text-align: center;
   background-color: while;
 }
 main h1 {
   text-align: center;
-  border: 1px solid red;
+  border: 5px solid red;
 }
 main > iframe {
   margin: auto;
