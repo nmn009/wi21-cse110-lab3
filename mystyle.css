@@ -1,4 +1,4 @@
-body {
+* {
   background: green ;
 }
 .header {
@@ -40,4 +40,5 @@ img {
   text-align: center;
   border: none;
 }
+
   
