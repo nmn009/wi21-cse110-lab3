@@ -48,7 +48,7 @@ a[title="Content"] {
 nav.list_content ol:hover {
   background-color: red;
 }
-span.incredient:hover {
+.incredient:hover {
   background-color: black;
   color: white;
   font-size: 30px;
