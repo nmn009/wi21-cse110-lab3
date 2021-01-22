@@ -40,15 +40,23 @@ img {
   text-align: center;
   border: none;
 }
-a[title=Content] {
+a[title="Content"] {
   background-color: green;
-  color: black;
+  color: #ffffff;
   font-size: 18px;
 }
 nav.list_content ol:hover {
   background-color: red;
 }
-
+span.incredient:hover {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+a:active {
+  color: blue;
+  font: 18px Potta One;
+}
 
 
 
