@@ -40,5 +40,18 @@ img {
   text-align: center;
   border: none;
 }
-nav.c
+a[title=Content] {
+  background-color: green;
+  color: black;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
   
