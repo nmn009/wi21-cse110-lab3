@@ -57,6 +57,12 @@ a:active {
   color: blue;
   font: 24px Potta One;
 }
+address + pre{
+  border: dot red 5px;
+}
+pre ~ footer{
+  background: blue;
+}
 form {
   border-style: dot;
   border-color: red;
