@@ -2,7 +2,7 @@
   background-color: rgba(0,255,0,0.5) ;
 }
 .header {
-  color: rgb(255,255,0);
+  color: rgb(255,0,0);
   text-align: center;
   background-color: #dee4f2;
 }
@@ -31,9 +31,9 @@ img {
 }
 #map {
   position: absolute;
-  top: 0;
   left: 100; 
   width: 50%;
+  height: 100%;
   background-color : hsla(0, 100%, 50%, 0.5);
   color: hsla(147,50%, 47%);
   font-size: 40px;
