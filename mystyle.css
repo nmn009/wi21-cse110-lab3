@@ -58,11 +58,10 @@ a:active {
   font: 24px Potta One;
 }
 form {
-  border-style: solid;
+  border-style: dot;
   border-color: red;
-  border-size: 2px;
+  border-size: 5px;
 }
-
 
 
 
