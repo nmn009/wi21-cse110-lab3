@@ -57,7 +57,11 @@ a:active {
   color: blue;
   font: 24px Potta One;
 }
-
+form {
+  border-style: solid;
+  border-color: red;
+  border-size: 2px;
+}
 
 
 
