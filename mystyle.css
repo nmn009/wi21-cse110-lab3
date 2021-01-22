@@ -6,7 +6,7 @@
   text-align: center;
   background-color: #dee4f2;
 }
-main h1 {
+main > h1 {
   text-align: center;
   border: 5px solid red;
 }
@@ -45,8 +45,9 @@ a[title=Content] {
   color: black;
   font-size: 18px;
 }
-
-
+nav.list_content ol:hover {
+  background-color: red;
+}
 
 
 
