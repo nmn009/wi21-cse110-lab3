@@ -58,7 +58,7 @@ a:active {
   font: 24px Potta One;
 }
 address + pre{
-  border: dot red 5px;
+  border: 5px dot brown;
 }
 pre ~ footer{
   background: blue;
