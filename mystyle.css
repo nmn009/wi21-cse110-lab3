@@ -94,7 +94,7 @@ form {
 a {
   text-decoration: underline;
 }
-@media screen and (min-width: 50%) {
+@media screen and (min-width: 800px) {
   body {
     background-color: red;
   }
@@ -139,8 +139,14 @@ a {
 .entertain > div {
   border: none;
 }
-
-
+.namecontainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.namecontainer div:active {
+  background-color:yellow;
+  color:blue;
+}
 
 
   
