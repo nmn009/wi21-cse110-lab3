@@ -155,5 +155,7 @@ a {
   border: 3px solid red;
 }
 
-
+h1, h2, h3 {
+  font-color: rgb(255, 255, 255);
+}
   
