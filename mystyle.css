@@ -103,6 +103,20 @@ a {
     display: none;
   }
 }
+.list_content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.list_content > ol > li {
+  background-color: rgba(244,255,255,0.5);
+  border-left: 1px solid black;
+  border-right: 2px solid blue;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
 
 
   
