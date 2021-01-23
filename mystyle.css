@@ -143,9 +143,16 @@ a {
   display: flex;
   flex-wrap: nowrap;
 }
-.namecontainer div:active {
+.namecontainer div: {
   background-color:yellow;
   color:blue;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container > div {
+  border: 3px solid red;
 }
 
 
