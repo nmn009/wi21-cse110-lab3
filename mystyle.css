@@ -95,7 +95,7 @@ form {
 a {
   text-decoration: underline;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 50%) {
   body {
     background-color: red;
   }
@@ -132,6 +132,13 @@ a {
 .hobbisection > div {
   background-color: pink;
   border: 1px solid black;
+}
+.entertain {
+  display: grid;
+  border: none;
+}
+.entertain > div {
+  border: none;
 }
 
 
