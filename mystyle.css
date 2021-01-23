@@ -80,10 +80,12 @@ a:active {
   font: 24px Potta One;
 }
 address + pre{
-  border: 5px dot brown;
+  border: 5px solid brown;
 }
 pre ~ footer{
   background: blue;
+  display: inline-block;
+  
 }
 form {
   border-style: dot;
@@ -93,7 +95,6 @@ form {
 a {
   text-decoration: underline;
 }
-
 
 
   
