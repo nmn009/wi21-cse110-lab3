@@ -9,6 +9,7 @@
 main > h1 {
   text-align: center;
   border: 5px solid red;
+  border-radius: 3px;
 }
 img {
   display: block;
@@ -46,14 +47,20 @@ img {
   width: 100%;
   padding-top: 25%;
 }
-.introsection {
-  position: position: absolute;
+.introsection p {
+  position: absolute;
   top: 0;
   left:0;
   width: 50%;
   height:100%;
 }
-
+.introsection figure{
+  position absolute;
+  top:0;
+  right:0;
+  width: 50%;
+  height: 100%;
+}
   
 a[title="Content"] {
   background-color: green;
@@ -83,7 +90,9 @@ form {
   border-color: red;
   border-size: 5px;
 }
-
+a {
+  text-decoration: underline;
+}
 
 
 
