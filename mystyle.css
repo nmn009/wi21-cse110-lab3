@@ -14,7 +14,7 @@ main > h1 {
 img {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 100%;
 }
 .MapContainer {
   position: relative;
@@ -42,13 +42,12 @@ img {
   border: none;
 }
 .introcontainer{
-  position: relative;
+  diplay: flex;
   overflow: hidden;
   width: 100%;
-  padding-top: 25%;
+ 
 }
-.introsection p {
-  position: absolute;
+.introsection div {
   top: 0;
   left:0;
   width: 50%;
